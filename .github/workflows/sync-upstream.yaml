@@ -21,7 +21,7 @@ jobs:
 
       - name: Add upstream remote
         run: |
-          git remote add upstream https://github.com/mintplexlabs/anything-llm.git
+          git remote add upstream https://github.com/mintplex-labs/anything-llm.git
           git fetch upstream --tags
 
       - name: Merge upstream changes
